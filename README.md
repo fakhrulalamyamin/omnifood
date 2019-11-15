@@ -1,2 +1,2 @@
 # omnifood
-Omnifood is a food shop.
+Omnifood is a imaginary food shop.
