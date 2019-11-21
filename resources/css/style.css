@@ -9,13 +9,15 @@
 }
 
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 /* --------------------------------- */
@@ -45,13 +47,6 @@ section {
     display: block;
     height: 0;
     visibility: hidden;
-}
-
-.long-copy {
-    line-height: 145%;
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
 }
 
 h1,
@@ -254,9 +249,18 @@ input[type=submit]:active {
 
 /* ---HEADER END--- */
 
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .section-feature .long-copy {
     margin-bottom: 30px;
 }
+
+
 
 
 /* --------------------------------- */
@@ -508,7 +512,10 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-*:focus {outline: none;}
+*:focus {
+    outline: none;
+}
+
 /* --------------------------------- */
 /* FORM END */
 /* --------------------------------- */
