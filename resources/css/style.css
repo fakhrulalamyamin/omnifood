@@ -226,6 +226,8 @@ input[type=submit]:active {
     margin-top: 20px;
 }
 
+.logo-black { display: none; }
+
 /* navigation start */
 
 .main-nav {
