@@ -9,7 +9,6 @@ $(document).ready(function () {
         offset: '70px;'
     });
 
-
     // Select all links with hashes
     $('a[href*="#"]')
         // Remove links that don't actually link to anything
@@ -45,6 +44,4 @@ $(document).ready(function () {
                 }
             }
         });
-
-
 });

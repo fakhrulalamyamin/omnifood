@@ -268,7 +268,7 @@ input[type=submit]:active {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 2px 2px #e6e6e6;
     z-index: 9999;
 }
